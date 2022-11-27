@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>buscador-interno</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+
+    <style>
+
+
+        body{
+            background: url('img/th1.jpg');
+            height: 500px;
+            width: 100%;
+        }
+
+          a {
+            display: flexbox;
+            width: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 200;
+            border-radius: 10px;
+            margin: 100px 100px;
+            padding: 15px 30px;
+            background-color:transparent;
+        }
+
+        a {
+            color:white;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <a href="Inicio.html">Inicio</a>
+    <a href="Busqueda_de_Restaurante.html">Buscar Restaurante</a>
+    <a href="NuevoRestaurante.html">Nuevo Restaurante</a>
+
+   <header>
+    <input type="search" id="input-search" placeholder="Buscar aqui">
+    
+    <div class="content-search">
+        <div class="content-table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><a href="Restaurante Italiano.html">Restaurante Italiano</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="pacifico_mar.html">Restaurante Pacifico Mar</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="pollo.html">Restaurante El Pollo</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="fritos.html">Restaurante De Fritos</a></td>
+                    </tr>
+                    
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</header>
+
+<script src="js/Busqueda.js"></script>
+</body>
+</html>

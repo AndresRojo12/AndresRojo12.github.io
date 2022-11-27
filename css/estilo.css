@@ -1,0 +1,174 @@
+div.principal img{
+    margin:10px 20px ;
+    box-shadow: 0 4px  8px 0 lightskyblue 0 6px 20px 0 rgba(0, 0, 0, 19);
+    float: left;
+    width: 300px;
+}
+
+div.principal img{
+    width:300px;
+    height:auto ;
+}
+
+div.principal:hover img{
+    border:1px solid lightcoral ;
+    transform: rotate(-3deg);
+}
+
+div.pie img{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+
+a{
+    display:flexbox;
+    width: 60px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:200;
+    border-radius: 10px;
+    margin: 100px 100px;
+    padding: 15px 30px;
+    background-color:#ffffff
+}
+
+a{
+    color:#000;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 2px 2px black,0 0 25px rgb(91, 59, 205), 0 0 5px rgb(82, 55, 200);
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background:#1f53c5;
+    padding: 10px;
+}
+
+#input-search{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.content-search{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+
+.content-table{
+    width: 85%;
+    max-height: 200px;
+    height: auto;
+    background: rgba(0,0,0,0.3);
+    margin-left: 10px;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding:0 ;
+
+    box-sizing: border-box;
+}
+
+.Form-new{
+    width: 400px;
+    background:transparent;
+    padding: 30px ;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    box-shadow:7px 13px 37px #000;
+}
+
+.Form-new h4{
+
+   font-size: 22px; 
+   margin-bottom:20px ;
+}
+
+.control{
+   width: 100%; 
+   background:transparent;
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border: 1px solid #1f53c5;
+   font-family:'Times New Roman', Times, serif;
+   font-size: 18px;
+}
+
+.Form-new p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Form-new a{
+    color: white;
+    text-decoration:none ;
+}
+
+.Form-new a:hover{
+    color: white;
+    text-decoration:underline ;
+}
+
+.Form-new .Boton{
+    width: 100%;
+    background:#435156;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin:16px 0;
+    font-size: 16px;
+
+
+}
+
+.in{
+   width: 450px; 
+}
+
+
+
